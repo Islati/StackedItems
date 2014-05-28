@@ -1,6 +1,10 @@
 name: StackedItems
 main: com.caved_in.stackeditems.StackedItems
-version: 1.3.0
+version: 1.0.0
 description: Utility to sort similar items into specific stack amounts.
 author: Brandon Curtis (TheGamersCave)
-softdepend: [TagAPI,PopupMenuAPI]
+depend: [Commons]
+commands:
+   stack:
+      description: Main command for the enchanteditems plugin
+      usage: /<command>
